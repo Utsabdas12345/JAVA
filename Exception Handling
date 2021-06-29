@@ -14,7 +14,7 @@ class RandException{
   try{
       if(rand<=2)
        throw new RandumException();
-       // throwing the exception manually
+       
   }
  catch(RandumException e)
  {
