@@ -6,7 +6,7 @@ class RandException{
        Scanner sc=new Scanner(System.in);
        System.out.println("enter the number 2 ");
        n=sc.nextInt();
-       double rand = Math.random(); // generating random point
+       double rand = Math.random(); 
     System.out.println("Random Number: " + rand);
     System.out.println();
     System.out.println("when the random the point"+rand+ " is closer to the origin less than 2 cm exception is generated ");
